@@ -1,7 +1,8 @@
 
 # PROJECT PROPOSAL:
 --------------
-## List of team members: Wolfgang Loudenburg, Ari Guzzi
+## List of team members: 
+Wolfgang Loudenburg, Ari Guzzi
 
 ## Overall description of the project:
 - The topic/purpose of the SPA:
