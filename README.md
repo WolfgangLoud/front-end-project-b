@@ -14,7 +14,7 @@
     Anyone looking for a helpful way to organize their meal planning.
 
 ### Wireframe that shows the design and flow of your team's project. This could be anywhere from hand drawn sequence of images to a low-fidelity mockup in a UX design tool of choice:
-![alt text](low_fidelity_mockup.jpeg)
+![alt text](low_fidelity_mockup.jpg)
 
 
 
