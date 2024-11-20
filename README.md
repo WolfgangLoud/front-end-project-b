@@ -1,9 +1,9 @@
 
 # PROJECT PROPOSAL:
 --------------
-## List of team members: Wolfgang Loudenburg, Ari Guzzi
+### List of team members: Wolfgang Loudenburg, Ari Guzzi
 
-## Overall description of the project:
+### Overall description of the project:
 - The topic/purpose of the SPA:
     The purpose of our site is to build a meal planner that can be populated with recipease from a json file we create. The planner will be helpful for people to plan out three meals a day over over a selected amount of time.
 
@@ -13,17 +13,17 @@
 - The intended audience for your SPA:
     Anyone looking for a helpful way to organize their meal planning.
 
-## Wireframe that shows the design and flow of your team's project. This could be anywhere from hand drawn sequence of images to a low-fidelity mockup in a UX design tool of choice:
+### Wireframe that shows the design and flow of your team's project. This could be anywhere from hand drawn sequence of images to a low-fidelity mockup in a UX design tool of choice:
 
 
-## Any content or information sources you intend to draw upon, start thinking about them early and include them in the proposal if possible:
+### Any content or information sources you intend to draw upon, start thinking about them early and include them in the proposal if possible:
 We will create our own recipies that exist within a JSON file.
 
-## Describe what you anticipate your personal contributions to the team and the project will be in the end:
+### Describe what you anticipate your personal contributions to the team and the project will be in the end:
 Wolfgang: Focus on reading JSON to populate list and building form to add to JSON.
 Ari: Will focus on the graph/table elements of the SPA and how to populate items into graph through user input.
 
-## Your goals for the project should be split up by what you think are goals for:
+### Your goals for the project should be split up by what you think are goals for:
 - Prototyping/proof of concept:
 Read info from a json to populate a list, and have a way to add items into tabular data
 - MVP (Minimum Viable Product):
