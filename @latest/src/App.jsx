@@ -1,5 +1,10 @@
-//import React from 'react'
+
+import { useState } from 'react';
+import MealTable from './mealTable';
 import './App.css'
+import { DndProvider } from 'react-dnd';
+import { HTML5Backend } from 'react-dnd-html5-backend';
+import DraggableRecipe from './dragAndDropRecipe';
 
 function App() {
   const recipes = [
@@ -14,21 +19,66 @@ function App() {
       calories: 500
     }
   ]
+
+  const initialMealPlan = {
+    Sun: {
+      Breakfast: [],
+      Lunch: [],
+      Dinner: []
+    },
+    Mon: {
+      Breakfast: [],
+      Lunch: [],
+      Dinner: []
+    },
+    Tues: {
+      Breakfast: [],
+      Lunch: [],
+      Dinner: []
+    },
+    Wed: {
+      Breakfast: [],
+      Lunch: [],
+      Dinner: []
+    },
+    Thur: {
+      Breakfast: [],
+      Lunch: [],
+      Dinner: []
+    },
+    Fri: {
+      Breakfast: [],
+      Lunch: [],
+      Dinner: []
+    },
+    Sat: {
+      Breakfast: [],
+      Lunch: [],
+      Dinner: []
+    }
+  };
+  const [mealPlan, setMealPlan] = useState(initialMealPlan);
   return (
+    <DndProvider backend={HTML5Backend}>
     <>
     <div>
-      <h1>My Recipes</h1>
-      <ul>
-        {recipes.map((recipe, index) => (
-          <li key={index}>
-            <h2>{recipe.name}</h2>
-            <p>{recipe.ingredients.join(', ')}</p>
-            <p>{recipe.calories} calories</p>
-          </li>
-        ))}
-      </ul>
+      <div className="grid">
+      <div>
+        <h1>Meal Planner</h1>
+        <MealTable mealPlan={mealPlan} setMealPlan={setMealPlan} />
+        </div>
+        <div>
+        <h2>Recipe List</h2>
+        <ul>
+          {recipes.map((recipe, index) => (
+          <li key={index}><DraggableRecipe recipe={recipe} /> </li>
+          ))}
+        </ul>
+        </div>
+      </div>
     </div>
     </>
+    </DndProvider>
   )
 }
 
