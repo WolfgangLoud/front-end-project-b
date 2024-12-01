@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import MealTable from './mealTable';
 import './App.css'
@@ -18,6 +19,7 @@ function App() {
       calories: 500
     }
   ]
+
   const initialMealPlan = {
     Sun: {
       Breakfast: [],
