@@ -1,7 +1,9 @@
 
 # PROJECT PROPOSAL:
 --------------
-### List of team members: Wolfgang Loudenburg, Ari Guzzi
+### List of team members: 
+- Wolfgang Loudenburg
+- Ari Guzzi
 
 ### Overall description of the project:
 - The topic/purpose of the SPA:
@@ -33,3 +35,5 @@ Select amount of days needed for planning and seperate days into breakfast, lunc
 - Stretch goals:
 Have a form for users to add their own recipies to the list
 
+# Ari's WIP Log: 
+- https://docs.google.com/document/d/1Y0o8XWJIQI0Nw_X_wjixvSl7_ARjcLaoS2fpsf6ah1s/edit?usp=sharing
