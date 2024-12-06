@@ -21,6 +21,7 @@ h2 {
   margin-top: 5em;
 }
 
+
 .grid {
   display: flex; 
   justify-content: space-around; 
@@ -28,8 +29,68 @@ h2 {
   padding: 20px;
 }
 
+.form_box h2 {
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.form_box {
+  min-width: 100%;
+  margin: 0vw;
+  padding: 1vw;
+  position: relative;
+
+}
+.form_box label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 2vh 0;
+}
+
+.form_box input,
+textarea {
+  width: 95%;
+  display: block;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.9vw 0;
+  border: solid black 1px;
+
+  font-size: 20px;
+}
+
+button{
+  background: lightgray;
+  border: solid black 1px;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+input[type=submit]{
+  width: 15%;
+  background: lightgray;
+  border: solid black 1px;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.submitBtn{
+  padding-left: 46%;
+}
+
+
+
+
 @media (max-width: 768px) {
   .grid {
     flex-direction: column; 
   }
+}
+
+body{
+  overflow-x: hidden; /* Hide scrollbars */
 }
