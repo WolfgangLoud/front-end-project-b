@@ -88,7 +88,7 @@ button{
 }
 
 input[type=submit]{
-  width: 15%;
+  width: 15vw;
   background: lightgray;
   border: solid black 1px;
   cursor: pointer;
@@ -105,12 +105,31 @@ input[type=submit]{
 }
 
 @media (max-width: 768px) {
-
-  .grid {
-    flex-direction: column; 
+  body {
+    max-width: fit-content !important;
+    overflow-x: hidden;
   }
-}
-
-body{
-  overflow-x: hidden;
+  th, td {
+    min-width: 1em;
+  }
+  .grid {
+    max-width: 100vw;
+    flex-direction: column; 
+    padding: 0;
+    padding-bottom: 5vh;
+    justify-content:center; 
+    align-items: center; 
+  }
+  .calendar {
+    padding: 1em 0 1em 0;
+  }
+  input[type=submit]{
+    width: 25vw;
+  }
+  .recipeList {
+    padding: 1.5em;
+  }
+  .form_box {
+    padding: 1.1em;
+  }
 }
