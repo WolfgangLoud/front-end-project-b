@@ -1,15 +1,19 @@
 #root {
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
+  background-image: url(fridge.png);
+  background-size: cover;
+  background-size: 100vw; 
 }
 table {
-  max-width: 85vw;
-  overflow-x: auto;
+  min-width: 60vw; 
+  overflow-x: auto; 
   border-collapse: collapse;
 }
 th, td {
   min-width: 6em;
   background-color: #f4f4f4;
-  border: 1px solid black; /* Black border, 1px */
+  border: 1px solid black;
   padding: 8px;
 
 }
@@ -18,28 +22,38 @@ tr {
 }
 h2 {
   text-align: center;
-  margin-top: 5em;
 }
 
-
 .grid {
+  max-width: 100%;
   display: flex; 
   justify-content: space-around; 
   align-items: flex-start; 
-  padding: 20px;
+  padding: 3em;
+  gap: 3em;
 }
-
+.day-buttons {
+  margin-left:2%;
+}
+.calendar {
+  background-color: #bda081;
+  padding: 1em;
+  border-radius: 8px;
+}
 .form_box h2 {
   text-align: center;
   margin-top: 1.5em;
 }
 
 .form_box {
-  min-width: 100%;
-  margin: 0vw;
+  margin: 0 auto;
+  max-width: 90%;
   padding: 1vw;
+  margin-bottom:1em;
   position: relative;
-
+  background-color: #F0FAB5;
+  border-radius: 8px;
+  padding-bottom: 1em;
 }
 .form_box label {
   display: block;
@@ -59,6 +73,11 @@ textarea {
 
   font-size: 20px;
 }
+.recipeList {
+  background-color: #eec5d6;
+  padding: 1em;
+  border-radius: 8px;
+}
 
 button{
   background: lightgray;
@@ -76,21 +95,22 @@ input[type=submit]{
   font-size: 20px;
   text-align: center;
   border-radius: 8px;
+  font-family: 'Comic Sans MS', sans-serif;
+
 }
 
 .submitBtn{
   padding-left: 46%;
+
 }
 
-
-
-
 @media (max-width: 768px) {
+
   .grid {
     flex-direction: column; 
   }
 }
 
 body{
-  overflow-x: hidden; /* Hide scrollbars */
+  overflow-x: hidden;
 }
