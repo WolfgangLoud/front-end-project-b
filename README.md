@@ -35,7 +35,7 @@ Select amount of days needed for planning and seperate days into breakfast, lunc
 - Stretch goals:
 Have a form for users to add their own recipies to the list
 
-# Ari's WIP Log: 
+# Ari's Process Blog: 
 - https://docs.google.com/document/d/1Y0o8XWJIQI0Nw_X_wjixvSl7_ARjcLaoS2fpsf6ah1s/edit?usp=sharing
 # Wolfgang's WIP Log: 
 - https://docs.google.com/document/d/1q_tPiTyGbD3ds5BwM6QjXFoTGuPKH57STme_ZwQ1C1g/edit?usp=sharing
