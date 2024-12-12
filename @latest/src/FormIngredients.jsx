@@ -19,7 +19,7 @@ function FormIngredients({formIngredients,setFormIngredients}) {
     }
 
     const removeIngredient = (index) => {
-        let ingredients = formIngredients.filter((ingredient, i) => i !== index);
+        let ingredients = formIngredients.filter((current, i) => i !== index);
         setFormIngredients(ingredients);
     };
 
