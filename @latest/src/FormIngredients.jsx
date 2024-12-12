@@ -18,17 +18,32 @@ function FormIngredients({formIngredients,setFormIngredients}) {
         setFormIngredients([...formIngredients, newIngredient])
     }
 
+    const removeIngredient = (index) => {
+        let ingredients = formIngredients.filter((ingredient, i) => i !== index);
+        setFormIngredients(ingredients);
+    };
+
   return (
     <form>
       {formIngredients.map((formIngredients, index) => {
         return (
            
-                <div key={index}>
+            <div key={index}>
                     <input
                     name='ingredient'
                     onChange={event => handleFormChange(index, event)}
                     />
-                </div>
+                    {
+              (() => { if (index !== 0) {
+                  return (
+                    <button type="button" onClick={() => removeIngredient(index)}>
+                      Remove Ingredient
+                    </button>
+                  );
+                  }
+                  })()
+              }
+            </div>
         )
       })}
       <button onClick={addIngredients}>add ingredient</button>

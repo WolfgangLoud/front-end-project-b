@@ -1,11 +1,20 @@
 //import React from 'react';
 import PropTypes from 'prop-types';
 import DroppableMealSlot from './dragAndDropSlot';
+import { jsPDF } from 'jspdf'; 
+import 'jspdf-autotable';
 
 function MealTable({ mealPlan, setMealPlan }) {
   const mealTypes = ['Breakfast', 'Lunch', 'Dinner'];
+  
+  const exportPDF = () => {
+    const mealPlan = new jsPDF();
+    mealPlan.autoTable({ html: '#meal-table' });
+    mealPlan.save('meal-plan.pdf');
+  };
+
   return (
-    <table>
+    <table id='meal-table'>
       <thead>
         <tr>
           <th>Meal / Day</th>
@@ -30,6 +39,7 @@ function MealTable({ mealPlan, setMealPlan }) {
           </tr>
         ))}
       </tbody>
+      <button onClick={exportPDF}>Download</button>
     </table>
   );
 }
