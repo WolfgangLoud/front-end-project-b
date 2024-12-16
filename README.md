@@ -37,5 +37,7 @@ Have a form for users to add their own recipies to the list
 
 # Ari's Process Blog: 
 - https://docs.google.com/document/d/1Y0o8XWJIQI0Nw_X_wjixvSl7_ARjcLaoS2fpsf6ah1s/edit?usp=sharing
-# Wolfgang's WIP Log: 
+# Wolfgang's Process Blog: 
 - https://docs.google.com/document/d/1q_tPiTyGbD3ds5BwM6QjXFoTGuPKH57STme_ZwQ1C1g/edit?usp=sharing
+- # Wolfgang's Reflection:
+- https://docs.google.com/document/d/1TIXeSBQ4w2XdK_mxiBRuez245brnHAvn5B3TightA2I/edit?usp=sharing
